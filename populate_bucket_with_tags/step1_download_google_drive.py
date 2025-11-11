@@ -602,7 +602,7 @@ def save_download_record(csv_path: Path, file_id: str, tag_name: str, original_n
         })
 
 
-def create_short_tag_name(tag_name: str, max_length: int = 50) -> str:
+def create_short_tag_name(tag_name: str, max_length: int = 80) -> str:
     """
     Create a shortened tag name suitable for filenames.
     If tag is too long, truncate and add hash suffix.
