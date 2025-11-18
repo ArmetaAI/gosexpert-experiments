@@ -213,3 +213,6 @@ downloaded_pdfs/
 .pdf
 *.pickle
 *.csv
+*.json
+temp_page_images_gemini/
+.xlsx
